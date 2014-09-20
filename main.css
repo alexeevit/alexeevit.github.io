@@ -1,0 +1,52 @@
+body {
+	font-family: 'Rambla' sans-serif;
+}
+
+H1 {
+	font-size:4em;
+	font-family: 'Playball' sans-serif;
+}
+
+MAIN {
+	width:600px;
+	margin:0 auto;
+	text-align:center;
+}
+
+DIV.cutaway {
+	width:350px;
+	font-size:12pt;
+	margin:5px auto;
+	margin-bottom:80px;
+	line-height:2;
+	padding:20px;
+	color:#232323;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, .2);
+	overflow:hidden;
+}
+
+SPAN.name {
+	font-size:27pt;
+	font-weight:bold;
+	font-family: 'Playball' sans-serif;
+}
+
+SPAN.attention {
+	font-size:14pt;
+	font-weight:bold;
+}
+
+DIV.contacts {
+	margin-top:10px;
+	font-size:11pt;
+	line-height:1.4;
+}
+
+A {
+	color:#7a7a7a;
+	text-decoration:underline;
+}
+
+A:hover {
+	color:#232323;
+}
