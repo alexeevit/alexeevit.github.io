@@ -2,11 +2,6 @@ body {
 	font-family: 'Rambla' sans-serif;
 }
 
-H1 {
-	font-size:4em;
-	font-family: 'Playball' sans-serif;
-}
-
 DIV.cutaway {
 	text-align:center;
 	margin: auto;
@@ -16,10 +11,10 @@ DIV.cutaway {
 	height:200px;
 	font-size:12pt;
 	line-height:2;
-	padding:20px;
+	padding:30px;
 	color:#232323;
 	box-shadow: 0 2px 4px rgba(0, 0, 0, .2);
-	overflow:hidden;
+	border:1px solid #fcfcfc;
 }
 
 SPAN.name {
