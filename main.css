@@ -1,47 +1,41 @@
 body {
-	font-family: 'Source Sans Pro', sans-serif;
-	background:#f1f0f0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    color: #000;
+    margin: 0;
+    padding-top: 50px;
+    padding-left: 50px;
 }
 
-DIV.cutaway {
-	background:#fff;
-	text-align:center;
-	margin: auto;
-	position: absolute;
-	top: -100px; left: 0; bottom: 0; right: 0;
-	width:396px;
-	height:220px;
-	font-size:12pt;
-	line-height:2;
-	padding:30px;
-	color:#232323;
-	box-shadow: 5px 5px 15px rgba(0, 0, 0, .2);
-	border:1px solid #fcfcfc;
+.name {
+    margin: 0;
+    font-weight: normal;
 }
 
-SPAN.name {
-	display:block;
-	font-size:16pt;
+.occupation {
+    font-size: 3em;
 }
 
-SPAN.attention {
-	display:block;
-	font-size:27pt;
-	font-weight:bold;
-	font-family: 'Lora', serif;
-	margin:5px 0;
+.email {
+    width: 100px;
+    height: 13px;
+    margin-top: 5px;
 }
 
-DIV.contacts {
-	font-size:11pt;
-	line-height:1.4;
-}
-
-A {
-	color:#7a7a7a;
+.contact {
+    color: #000;
 	text-decoration:underline;
 }
 
-A:hover {
-	color:#232323;
+.contact:hover {
+	color:#333;
+}
+
+ul.contacts {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+ul.contacts li {
+    margin: 10px 0;
 }
