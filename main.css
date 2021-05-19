@@ -1,42 +1,58 @@
 body {
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-    color: #000;
-    margin: 0;
-    padding-top: 50px;
-    padding-left: 50px;
-    padding: 50px 20px 20px 50px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  color: #333533;
+  background: #F9F8FF;
+  margin: 0;
+  padding-top: 50px;
+  padding-left: 50px;
+  padding: 50px 20px 20px 50px;
 }
 
 .name {
-    margin: 0;
-    font-weight: normal;
+  margin: 0;
+  font-weight: normal;
 }
 
 .occupation {
-    font-size: 3em;
+  font-size: 3em;
 }
 
 .email {
-    width: 100px;
-    height: 13px;
-    margin-top: 5px;
+  width: 100px;
+  height: 13px;
+  margin-top: 5px;
 }
 
 .contact {
-    color: #000;
-	text-decoration:underline;
+  color: #333533;
+  text-decoration:underline;
 }
 
 .contact:hover {
-	color:#333;
+  color: #333;
 }
 
 ul.contacts {
-    list-style: none;
-    padding: 0;
-    margin: 0;
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
 ul.contacts li {
-    margin: 10px 0;
+  margin: 10px 0;
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    color: #F4F4F6;
+    background: #5C5562;
+  }
+
+  .contact {
+    color: #F4F4F6;
+  }
+
+  .contact:hover {
+    color: #D2D2DA;
+  }
 }
