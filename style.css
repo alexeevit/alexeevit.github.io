@@ -6,6 +6,7 @@ body {
   padding-top: 50px;
   padding-left: 50px;
   padding: 50px 20px 20px 50px;
+  max-width: 600px;
 }
 
 .name {
@@ -15,12 +16,6 @@ body {
 
 .occupation {
   font-size: 3em;
-}
-
-.email {
-  width: 100px;
-  height: 13px;
-  margin-top: 5px;
 }
 
 .contact {
@@ -35,11 +30,11 @@ body {
 ul.contacts {
   list-style: none;
   padding: 0;
-  margin: 0;
+  margin: 50px 0 0;
 }
 
 ul.contacts li {
-  margin: 10px 0;
+  margin: 0.8em 0;
 }
 
 @media (prefers-color-scheme: dark) {
