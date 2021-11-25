@@ -15,7 +15,7 @@ body {
 }
 
 .occupation {
-  font-size: 3em;
+  font-size: 2.7em;
 }
 
 .contact {
@@ -49,5 +49,11 @@ ul.contacts li {
 
   .contact:hover {
     color: #D2D2DA;
+  }
+}
+
+@media (max-width: 768px) {
+  body {
+    padding: 50px 30px 20px 30px;
   }
 }
